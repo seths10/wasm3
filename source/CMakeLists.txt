@@ -14,6 +14,7 @@ set(sources
     "m3_info.c"
     "m3_module.c"
     "m3_parse.c"
+    "m3_wasm_api.c"
 )
 
 add_library(m3 STATIC ${sources})
